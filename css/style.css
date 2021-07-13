@@ -23,13 +23,13 @@ header{
 .branding-logo{
     display: flex;
     align-items: center;
-    
 }
 
 .branding-logo img{
     width: 40px;
     height: 50px;
 }
+
 .branding-logo h4{
    color: #fff;
    font-size: 20px;
@@ -53,11 +53,13 @@ header{
   color: #fff;
   margin-right: 50px;
 }
+
 .nav-items img{
     width: 55px;
     height: 55px;
     margin-top: 8px;
   }
+
 /* common styles  */
 
 main{
@@ -79,7 +81,8 @@ hr{
     margin-bottom: 27px;
 }
 
-/* top players style */
+/* top players styles */
+
 .top-players{
     margin-bottom: 30px;
 }
@@ -112,6 +115,7 @@ hr{
 }
 
 /* top blogs style */
+
 .blogs{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -200,9 +204,12 @@ hr{
     color: #FF4A60;
 }
 
-/* media query */
+/* -------------- 
+    media query 
+---------------- */
 
 /* mobile devices */
+
 @media only screen and (max-width:688px){
     
     header{
@@ -281,7 +288,7 @@ hr{
     .blog{
         align-items: center;
     }
-    
+
     .course{
     margin: auto;
     }
